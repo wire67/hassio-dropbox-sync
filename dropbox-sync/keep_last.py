@@ -5,7 +5,7 @@ import requests
 from dateutil.parser import parse
 import pytz
 
-BASE_URL = "http://hassio/"
+BASE_URL = "http://homeassistant.local:8123/"
 HEADERS = {"X-HASSIO-KEY": os.environ.get("HASSIO_TOKEN")}
 
 
